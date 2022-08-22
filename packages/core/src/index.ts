@@ -8,7 +8,8 @@ export function sum(...nums: number[]): number {
 
 export function subtract(...nums: number[]): number {
 	let index = 0;
-	let total = Math.trunc(nums[index++]);
+	// eslint-disable-next-line no-bitwise, unicorn/prefer-math-trunc
+	let total = nums[index++] | 0;
 	for (; index < nums.length; index++) total -= nums[index];
 	return total;
 }
