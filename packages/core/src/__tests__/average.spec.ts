@@ -7,7 +7,7 @@ describe("average", () => {
 	});
 
 	test("should default to NaN", () => {
-		expect(average()).toBe(NaN);
+		expect(average()).toBe(Number.NaN);
 	});
 
 	test("should handle one argument", () => {
