@@ -1,4 +1,4 @@
-[![CI](https://github.com/Ernxst/typescript-module/workflows/CI/badge.svg)](https://github.com/Ernxst/typescript-module/actions) [![codecov](https://badgen.now.sh/codecov/c/github/Ernxst/typescript-module)](https://codecov.io/gh/Ernxst/typescript-module)
+[![codecov](https://codecov.io/gh/Ernxst/npm-module-starter-kit/branch/main/graph/badge.svg?token=M7P9X37MVB)](https://codecov.io/gh/Ernxst/npm-module-starter-kit)
 
 # TypeScript NPM Module Starter Kit
 
@@ -78,7 +78,7 @@ Once all `TODO` notes have been updated & your new module is ready to be shared,
 Once decided, you can run the following:
 
 ```sh
-pnpm changeset version
+pnpm changeset
 ```
 
 And then answer the prompted questions.
