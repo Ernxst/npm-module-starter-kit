@@ -110,6 +110,7 @@ jobs:
       - name: 📄 Report
         if: matrix.node_version >= 16
         run: |
+          pnpm run aggregate
           nyc report --reporter=text-lcov > coverage.lcov
           bash <(curl -s https://codecov.io/bash)
         env:

@@ -16,7 +16,7 @@ export default defineConfig({
 		coverage: {
 			enabled: true,
 			all: true,
-			reporter: ["html", "text-summary"],
+			reporter: ["html", "text-summary", "json"],
 			include: ["src/**/*"],
 			exclude: [
 				"src/**/__tests__",

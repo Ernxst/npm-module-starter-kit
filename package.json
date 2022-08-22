@@ -23,6 +23,7 @@
 		"typecheck": "turbo run typecheck",
 		"-----------------------------------------------------------------------------------": "",
 		"test": "turbo run test",
+		"aggregate": "node ./scripts/aggregate.mjs",
 		"-------------------------------------------------------------------------------------": "",
 		"format": "prettier --write \"**/*.{ts,js,mjs,cjs,d.ts,yml,yaml,toml,json,html,css,vue,tsx,html,astro}\"",
 		"clean": "rimraf **/*/{dist,target,node_modules,.turbo,coverage,.pnpm-debug.log} && rm -rf node_modules && rm -rf .pnpm-debug.log",
