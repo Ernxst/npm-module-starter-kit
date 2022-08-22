@@ -1,0 +1,23 @@
+# Directories
+node_modules/
+dist/
+coverage/
+
+# ESLint
+.eslintcache
+
+# Turborepo
+.turbo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+*.log*
+
+# Editor directories
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json

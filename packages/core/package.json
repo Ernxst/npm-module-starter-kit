@@ -1,0 +1,69 @@
+{
+	"name": "@ernxst/example-module",
+	"version": "0.0.1",
+	"description": "",
+	"author": "Ernest Nkansah-Badu",
+	"license": "MIT",
+	"homepage": "https://github.com/Ernxst/astro-cssbundle",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Ernxst/Galaxia.git",
+		"directory": "packages/module"
+	},
+	"type": "module",
+	"main": "dist/index.cjs",
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"iife": "dist/index.global.js",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.js",
+			"iife": "./dist/index.global.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"typesVersions": {
+		"*": {
+			".": [
+				"./dist/index.d.ts"
+			]
+		}
+	},
+	"files": [
+		"dist",
+		"README.md"
+	],
+	"engines": {
+		"node": "^14.15.0 || >=16.0.0",
+		"pnpm": ">=7.5.0"
+	},
+	"packageManager": "pnpm@7.5.2",
+	"scripts": {
+		"dev": "tsup --watch",
+		"-------------------------------------------------------------------------------": "",
+		"build": "tsup --clean",
+		"build:dts": "tsup --dtsOnly",
+		"--------------------------------------------------------------------------------": "",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"---------------------------------------------------------------------------------": "",
+		"test": "vitest run"
+	},
+	"keywords": [
+		"TODO",
+		"module",
+		"keywords"
+	],
+	"devDependencies": {
+		"@ernxst/eslint": "workspace:*",
+		"@ernxst/tsconfig": "workspace:*",
+		"@vitest/coverage-c8": "^0.22.1",
+		"eslint": "^8.22.0",
+		"tsup": "6.2.2",
+		"vite": "^3.0.9",
+		"vite-tsconfig-paths": "3.4.1",
+		"vitest": "0.22.1"
+	}
+}
