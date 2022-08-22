@@ -2,7 +2,7 @@
  * @param {string} type
  */
 function load(type) {
-	return `./../../packages/config/.eslintrc.${type}.cjs`;
+	return `./../../packages/eslint/.eslintrc.${type}.cjs`;
 }
 
 const path = require("path");
