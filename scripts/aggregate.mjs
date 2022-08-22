@@ -1,7 +1,8 @@
+// ESM version of: https://dev.to/mbarzeev/aggregating-unit-test-coverage-for-all-monorepos-packages-20c6
 import { existsSync, mkdirSync, readdir, stat, copyFileSync } from "fs";
 import { resolve } from "path";
 
-const REPORTS_DIR_NAME = ".nyc-output";
+const REPORTS_DIR_NAME = ".nyc_output";
 const PACKAGES_DIR_NAME = "packages";
 const PACKAGE_PATH = resolve(process.cwd(), PACKAGES_DIR_NAME);
 const REPORTS_DIR_PATH = resolve(process.cwd(), REPORTS_DIR_NAME);

@@ -3,6 +3,7 @@ node_modules/
 dist/
 coverage/
 .nyc-output
+.nyc_output
 
 # ESLint
 .eslintcache

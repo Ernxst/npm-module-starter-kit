@@ -26,7 +26,7 @@
 		"aggregate": "node ./scripts/aggregate.mjs",
 		"-------------------------------------------------------------------------------------": "",
 		"format": "prettier --write \"**/*.{ts,js,mjs,cjs,d.ts,yml,yaml,toml,json,html,css,vue,tsx,html,astro}\"",
-		"clean": "rimraf **/*/{dist,target,node_modules,.turbo,coverage,.pnpm-debug.log} && rm -rf node_modules && rm -rf .pnpm-debug.log",
+		"clean": "rimraf **/*/{dist,target,node_modules,.turbo,coverage,.nyc-output,.pnpm-debug.log} && rm -rf node_modules && rm -rf .pnpm-debug.log",
 		"--------------------------------------------------------------------------------------": "",
 		"prepare": "husky install",
 		"---------------------------------------------------------------------------------------": "",
