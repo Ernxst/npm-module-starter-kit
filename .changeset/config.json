@@ -3,7 +3,7 @@
     "changelog": [
         "@changesets/changelog-github",
         {
-            "repo": "Ernxst/astro-cssbundle"
+            "repo": "Ernxst/npm-module-starter-kit"
         }
     ],
     "commit": false,
